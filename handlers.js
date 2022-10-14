@@ -7,22 +7,19 @@ let submit = document.querySelector('#submit')  //set id in index.html
 
 submit.addEventListener('click', generateCard)
 
-function generateCard() {
 
+function handleFormSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+
+    const greeting = form.greeting.value;
+    const typeofevent = form.typeofevent.value
+    const message = form.message.value;
+
+    generateCard(greeting, typeofevent, message);
 }
 
 
-function getGreeting() {
-
-    return greeting;
-}
-
-function getOccasion() {
-
-    return occasion;
-}
-
-function getMessage() {
+function generateCard(greeting, typeofevent, message) {
     
-    return message;
 }

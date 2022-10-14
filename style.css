@@ -1,0 +1,26 @@
+* {
+    background-color: #FEF4B6;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 3em;
+    border: 1px solid black;
+    border-radius: 2em;
+  }
+
+  label {
+    
+    
+  }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

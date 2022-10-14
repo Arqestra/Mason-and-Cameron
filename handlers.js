@@ -5,7 +5,7 @@ const path = require('path');
 const html = fs.readFileSync(path.resolve(__dirname, 'index.html'), 'utf-8');
 
 let submit = document.querySelector('#submit')
-submit.addEventListener('click', generateCard)
+submit.addEventListener('click', handleFormSubmit)
 
 
 function handleFormSubmit(e) {

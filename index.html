@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Card Form</title>
 </head>
 
@@ -15,9 +18,9 @@
         <h2>Fill in the following information to generate a celebration card</h2>
     </header>
 
-    <form>
-    <label for="greeting">Type a greeting message here:</label>
-    <input type="text" name="greeting" id="greeting"><br>
+    <form action="card.html">
+    <div><label for="greeting">Type a greeting message here:</label>
+    <input type="text" name="greeting" id="greeting"></div><br>
 
     <p>What type of event would you like?</p>
     <input type="radio" id="Birthday" name="typeofevent" value="Birthday">
@@ -30,7 +33,7 @@
     <label for="message">Add a message here:</label>
     <input type="text" name="message" id="message"><br>
 
-    <input type="submit">
+    <input type="submit" id="submit">
 </form>
     
 </body>

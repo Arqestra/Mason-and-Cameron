@@ -11,26 +11,15 @@ submit.addEventListener('click', generateCard)
 function handleFormSubmit(e) {
     e.preventDefault();
     const form = e.target;
-    generateCard(form);
-}
 
-
-function getGreeting(form) {
     const greeting = form.greeting.value;
-    return greeting;
-}
-
-function getOccasion() {
-    
-    return occasion;
-}
-
-function getMessage() {
+    const typeofevent = form.typeofevent.value
     const message = form.message.value;
-    return message;
+
+    generateCard(greeting, typeofevent, message);
 }
 
 
-function generateCard(form) {
+function generateCard(greeting, typeofevent, message) {
     
 }
